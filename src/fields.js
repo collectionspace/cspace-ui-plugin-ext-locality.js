@@ -45,6 +45,9 @@ export default (configContext) => {
                 defaultMessage: 'Field collection location verbatim',
               },
             }),
+            searchView: {
+              type: TextInput,
+            },
             view: {
               type: TextInput,
               props: {
