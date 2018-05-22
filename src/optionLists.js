@@ -3033,7 +3033,7 @@ export default {
       },
       Ellas: {
         id: 'option.countries.Ellas',
-        defaultMessage: 'Ellas</option>  ',
+        defaultMessage: 'Ellas',
       },
       'Equatorial Guinea': {
         id: 'option.countries.Equatorial Guinea',
@@ -3045,7 +3045,7 @@ export default {
       },
       Espana: {
         id: 'option.countries.Espana',
-        defaultMessage: 'Espana</option>  ',
+        defaultMessage: 'Espana',
       },
       EE: {
         id: 'option.countries.EE',
