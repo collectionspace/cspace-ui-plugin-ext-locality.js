@@ -96,6 +96,8 @@ export default (configContext) => {
             view: {
               type: OptionPickerInput,
               props: {
+                // Suppress Chrome autofill
+                autoComplete: 'cspace-county',
                 source: 'counties',
               },
             },
@@ -112,6 +114,8 @@ export default (configContext) => {
             view: {
               type: OptionPickerInput,
               props: {
+                // Suppress Chrome autofill
+                autoComplete: 'cspace-state',
                 source: 'states',
               },
             },
@@ -128,6 +132,8 @@ export default (configContext) => {
             view: {
               type: OptionPickerInput,
               props: {
+                // Suppress Chrome autofill
+                autoComplete: 'cspace-country',
                 source: 'countries',
               },
             },
