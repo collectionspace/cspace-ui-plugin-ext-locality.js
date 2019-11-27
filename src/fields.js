@@ -32,6 +32,12 @@ export default (configContext) => {
       },
       localityGroup: {
         [config]: {
+          messages: defineMessages({
+            fullName: {
+              id: 'field.ext.locality.localityGroup.fullName',
+              defaultMessage: 'Locality',
+            },
+          }),
           repeating: true,
           view: {
             type: CompoundInput,
@@ -271,6 +277,10 @@ export default (configContext) => {
           [config]: {
             dataType: DATA_TYPE_FLOAT,
             messages: defineMessages({
+              fullName: {
+                id: 'field.ext.locality.coordUncertainty.fullName',
+                defaultMessage: 'Coord uncertainty',
+              },
               name: {
                 id: 'field.ext.locality.coordUncertainty.name',
                 defaultMessage: 'Uncertainty',
@@ -284,6 +294,10 @@ export default (configContext) => {
         coordUncertaintyUnit: {
           [config]: {
             messages: defineMessages({
+              fullName: {
+                id: 'field.ext.locality.coordUncertaintyUnit.fullName',
+                defaultMessage: 'Coord uncertainty unit',
+              },
               name: {
                 id: 'field.ext.locality.coordUncertaintyUnit.name',
                 defaultMessage: 'Uncertainty unit',
