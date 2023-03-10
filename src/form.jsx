@@ -1,19 +1,25 @@
 export default (configContext) => {
   const {
+    layoutComponents,
+    lib,
+    recordComponents,
+  } = configContext;
+
+  const {
     React,
-  } = configContext.lib;
+  } = lib;
 
   const {
     Panel,
     Row,
     Cols,
     Col,
-  } = configContext.layoutComponents;
+  } = layoutComponents;
 
   const {
     Field,
     InputTable,
-  } = configContext.recordComponents;
+  } = recordComponents;
 
   return (
     <Field name="localityGroupList">
