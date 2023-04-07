@@ -1,6 +1,7 @@
 # cspace-ui-plugin-ext-locality
 
-[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-ext-locality.js.svg?branch=master)](https://travis-ci.org/collectionspace/cspace-ui-plugin-ext-locality.js)
+[![npm package](https://img.shields.io/npm/v/cspace-ui-plugin-ext-locality.svg)](https://www.npmjs.com/package/cspace-ui-plugin-ext-locality)
+[![continuous integration](https://github.com/collectionspace/cspace-ui-plugin-ext-locality.js/actions/workflows/ci-js.yml/badge.svg?branch=master&event=push)](https://github.com/collectionspace/cspace-ui-plugin-ext-locality.js/actions/workflows/ci-js.yml)
 
 Locality extension plugin for the CollectionSpace UI.
 
