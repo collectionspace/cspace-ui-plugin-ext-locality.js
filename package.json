@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-ext-locality",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Locality extension plugin for the CollectionSpace UI",
   "author": "Ray Lee <ray.lee@lyrasis.org>",
   "license": "ECL-2.0",
